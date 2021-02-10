@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "node-sass --watch css/style.scss css/custom.css --output-style compressed"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "KD",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
